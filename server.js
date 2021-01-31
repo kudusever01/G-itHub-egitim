@@ -9,7 +9,7 @@ var deniz = "deniz 123";
 var stash = true ;
 var stash1 = false ;
 var stash2 = "deniz 1227";
-rp(url)
+srp(url)
   .then(function(html){
     //success!
     var wikiUrls = [];

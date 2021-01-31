@@ -6,6 +6,9 @@ var port = 3000;
 var app = express();
 var wikiUrls1 = "";
 var deniz = "deniz 123";
+var stash = true ;
+var stash1 = false ;
+var stash2 = "deniz 1227";
 rp(url)
   .then(function(html){
     //success!
